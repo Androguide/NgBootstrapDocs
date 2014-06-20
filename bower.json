@@ -1,0 +1,33 @@
+{
+  "name": "BootstrapDocsNg",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Androguide/NgBootstrapDocs",
+  "authors": [
+    "Louis Teboul (Androguide) <admin@androguide.fr>"
+  ],
+  "description": "Rewrite of the http://getbootstrap.com website using AngularJS & Angustrap",
+  "main": "app/index.html",
+  "keywords": [
+    "Bootstrap",
+    "Docs",
+    "Bootstrap",
+    "AngularJS",
+    "Angular",
+    "Angustrap"
+  ],
+  "license": "Apache v2",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.1.1",
+    "angular": "~1.2.18",
+    "angular-route": "~1.2.18"
+  }
+}
