@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "customize.js",
+  "sourceRoot": "",
+  "sources": [
+    "customize.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,EAEA,OAAO,CAAC,MAAR,CAAe,iBAAf,CAAiC,CAAC,UAAlC,CAA6C,eAA7C,EAA8D;IAAC,QAAD,EAAW,SAAC,MAAD,GAAA;aACrE,OAAO,CAAC,CAAR,CAAU,yBAAV,EADqE;IAAA,CAAX;GAA9D,CAFA,CAAA;AAAA"
+}

@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "getting-started.js",
+  "sourceRoot": "",
+  "sources": [
+    "getting-started.coffee"
+  ],
+  "names": [],
+  "mappings": ";AAAA;AAAA,EAAA,YAAA,CAAA;AAAA,EAEA,OAAO,CAAC,MAAR,CAAe,iBAAf,CAAiC,CAAC,UAAlC,CAA6C,oBAA7C,EAAmE;IAAC,QAAD,EAAW,SAAC,MAAD,GAAA;aAC1E,OAAO,CAAC,CAAR,CAAU,+BAAV,EAD0E;IAAA,CAAX;GAAnE,CAFA,CAAA;AAAA"
+}

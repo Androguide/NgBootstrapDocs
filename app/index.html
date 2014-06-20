@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.">
+    <meta name="keywords"
+          content="HTML, CSS, JS, JavaScript, framework, bootstrap, front-end, frontend, web development">
+    <meta name="author" content="AngularJS port: Louis Teboul | Original work: Mark Otto, Jacob Thornton, and Bootstrap contributors">
+
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Documentation extras -->
+    <link id="docs-css" href="assets/css/docs.min.css" rel="stylesheet">
+    <style type="text/css">a:focus { outline: none; }</style>
+    <!--[if lt IE 9]>
+    <script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="dist/ie.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" href="/app/apple-touch-icon-precomposed.png">
+    <link rel="icon" href="/app/favicon.ico">
+</head>
+
+<body class="bs-docs-home" data-ng-app="NgBootstrapDocs">
+
+<div src="'views/includes/header.html'" ng-include></div>
+
+<div data-ng-view=""></div>
+
+<div src="'views/includes/footer.html'" ng-include></div>
+
+
+<!-- Angustrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-route/angular-route.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+<script src="assets/js/docs.min.js"></script>
+
+<!-- Run grunt to generate the combined, minified javascript file -->
+<script src="dist/ng-bootstrap-docs.min.js"></script>
+
+<script>
+    window.twttr = (function (d, s, id) {
+        var t, js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s);
+        js.id = id;
+        js.async = 1;
+        js.src = "https://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+        return window.twttr || (t = { _e: [], ready: function (f) {
+            t._e.push(f)
+        } });
+    }(document, "script", "twitter-wjs"));
+</script>
+
+</body>
+</html>
